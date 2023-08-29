@@ -3,13 +3,7 @@ variable "test_str" {
   default     = "variable-test"
 }
 
-variable "test_str2" {
-  type        = string
-  default     = "variable-test2"
-}
-
 variable "test_num" {
-  type        = number
   default     = 123
 }
 
@@ -89,12 +83,6 @@ variable "show_gteq" {
 variable "show_lteq" {
   type      = string
   default   = "ok"
-}
-
-# @show_if "test_srt=test&&test_num=22||test_bool=true&&test_str2=66"
-variable "show_com" {
-  type      = string
-  default   = "testok"
 }
 
 output "output_str" {

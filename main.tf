@@ -85,6 +85,12 @@ variable "show_lteq" {
   default   = "ok"
 }
 
+# @options ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+variable "test_options" {
+  description = "Testing options list and no default value"
+  type = list(string)
+}
+
 output "output_str" {
   value         = var.test_str 
 }

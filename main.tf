@@ -13,6 +13,7 @@ variable "test_bool" {
 }
 
 variable "test_lst" {
+  type        = list(number)
   default     = [80, 443]
 }
 

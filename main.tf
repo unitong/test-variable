@@ -27,7 +27,7 @@ variable "test_map" {
 
 variable "map_any" {
   type        = map(any)
-  default     = ""
+  default     = {}
 }
 
 variable "test_object" {

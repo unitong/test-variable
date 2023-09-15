@@ -119,4 +119,8 @@ output "output_map" {
 
 output "output_object" {
   value         = var.test_object
+
+output "endpoint_localhost" {
+  value         = "https://localhost"
+}
 }

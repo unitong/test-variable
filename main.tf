@@ -30,7 +30,7 @@ variable "map_any" {
   default     = {}
 }
 
-variable "list_map_any" {
+variable "list_map" {
   type        = list(map())
   description = "List of maps containing node pools"
 

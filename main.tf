@@ -30,6 +30,17 @@ variable "map_any" {
   default     = {}
 }
 
+variable "list_map_any" {
+  type        = list(map(any))
+  description = "List of maps containing node pools"
+
+  default = [
+    {
+      name = "default-node-pool"
+    },
+  ]
+}
+
 variable "test_object" {
   type          = object({
     name        = string

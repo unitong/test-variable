@@ -31,7 +31,7 @@ variable "map_any" {
 }
 
 variable "list_map" {
-  type        = list(map())
+  type        = list(map(object))
   description = "List of maps containing node pools"
 
   default = [

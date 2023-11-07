@@ -47,7 +47,7 @@ variable "test_object" {
     age         = number
     email       = optional(object({
         address = string
-        domain  = string
+        domain  = optional(string, 'test.com')
     }))
   })
   default       = {

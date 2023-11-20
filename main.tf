@@ -37,7 +37,7 @@ variable "list_map" {
   default = [
     {
       name = "default-node-pool"
-    },
+    }
   ]
 }
 

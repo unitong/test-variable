@@ -1,2 +1,2 @@
 # test-variable
-For walrus testing
+For walrus testing variables.

@@ -106,6 +106,7 @@ variable "show_lteq" {
 variable "test_options" {
   description = "Testing options list and no default value"
   type = list(string)
+  default = ["Dec", "16"]
 }
 
 output "output_str" {

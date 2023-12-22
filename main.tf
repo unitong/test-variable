@@ -137,3 +137,7 @@ output "endpoint_localhost" {
   value         = "https://localhost"
 }
 
+output "output_options" {
+value           = var.test_options
+}
+
